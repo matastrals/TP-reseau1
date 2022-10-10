@@ -96,7 +96,7 @@ Durée approximative des boucles en millisecondes :
 🌞 **Wireshark it**
 C'est un ICMP de type 8 qui est un "echo request" pour la requête.
 C'est un ICMP de type 0 qui est un "echo reply" pour la réponse.
-![Ping Wireshark](./wireshark screen Ping TP2.pcapng)
+![Ping Wireshark](./wireshark_screen_Ping_TP2.pcapng)
 
 # II. ARP my bro
 
@@ -166,7 +166,7 @@ Interface : 192.168.63.1 --- 0x9
 ```
 🌞 **Wireshark it**
 
-![ARP wireshark](./ARP wireshark screen.pcapng)
+![ARP wireshark](./arp_wireshark_screen.pcapng)
 
 🦈 **PCAP qui contient les trames ARP**
 
@@ -203,8 +203,6 @@ Entre introduire des fausses infos et usurper l'identité de quelqu'un il n'y a 
   - bah ui ! Sinon on risque que la table ARP d'Alice ou Bob se vide naturellement, et que l'échange ARP normal survienne
   - aussi, c'est un truc possible, mais pas normal dans cette utilisation là, donc des fois bon, ça chie, DONC ON SPAM
 
-![Am I ?](./pics/arp_snif.jpg)
-
 ---
 
 ➜ J'peux vous aider à le mettre en place, mais **vous le faites uniquement dans un cadre privé, chez vous, ou avec des VMs**
@@ -214,8 +212,6 @@ Entre introduire des fausses infos et usurper l'identité de quelqu'un il n'y a 
 GLHF.
 
 # III. DHCP you too my brooo
-
-![YOU GET AN IP](./pics/dhcp.jpg)
 
 *DHCP* pour *Dynamic Host Configuration Protocol* est notre p'tit pote qui nous file des IPs quand on arrive dans un réseau, parce que c'est chiant de le faire à la main :)
 
@@ -229,7 +225,7 @@ L'échange DHCP  entre un client et le serveur DHCP consiste en 4 trames : **DOR
 
 🌞 **Wireshark it**
 
-![DORA screen wireshark](./DORA wireshark.pcapng)
+[DORA screen wireshark](./dora_wireshark.pcapng)
 
 1 : 10.33.17.35
 2 : 10.33.19.254
