@@ -96,7 +96,7 @@ Durée approximative des boucles en millisecondes :
 🌞 **Wireshark it**
 C'est un ICMP de type 8 qui est un "echo request" pour la requête.
 C'est un ICMP de type 0 qui est un "echo reply" pour la réponse.
-[Ping Wireshark](./wireshark screen Ping TP2.pcapng)
+![Ping Wireshark](./wireshark screen Ping TP2.pcapng)
 
 # II. ARP my bro
 
@@ -166,7 +166,7 @@ Interface : 192.168.63.1 --- 0x9
 ```
 🌞 **Wireshark it**
 
-[ARP wireshark](./ARP wireshark screen.pcapng)
+![ARP wireshark](./ARP wireshark screen.pcapng)
 
 🦈 **PCAP qui contient les trames ARP**
 
@@ -229,7 +229,7 @@ L'échange DHCP  entre un client et le serveur DHCP consiste en 4 trames : **DOR
 
 🌞 **Wireshark it**
 
-[DORA screen wireshark](./DORA wireshark.pcapng)
+![DORA screen wireshark](./DORA wireshark.pcapng)
 
 1 : 10.33.17.35
 2 : 10.33.19.254
