@@ -64,7 +64,7 @@ Durée approximative des boucles en millisecondes :
 C'est un ICMP de type 8 qui est un "echo request" pour la requête.
 C'est un ICMP de type 0 qui est un "echo reply" pour la réponse.
 
-![Ping Wireshark](./wireshark_screen_Ping_TP2.pcapng)
+[Ping Wireshark](./wireshark_screen_Ping_TP2.pcapng)
 
 # II. ARP my bro
 
@@ -134,7 +134,7 @@ Interface : 192.168.63.1 --- 0x9
 ```
 🌞 **Wireshark it**
 
-![ARP wireshark](./arp_wireshark_screen.pcapng)
+[ARP wireshark](./arp_wireshark_screen.pcapng)
 
 🦈 **PCAP qui contient les trames ARP**
 
