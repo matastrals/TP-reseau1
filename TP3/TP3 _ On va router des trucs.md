@@ -136,7 +136,7 @@ rtt min/avg/max/mdev = 0.765/1.179/1.435/0.295 ms
 ```
 - essayez de déduire un peu les échanges ARP qui ont eu lieu
   - en regardant la capture et/ou les tables ARP de tout le monde
-[arp_john_marcel](./arp_john_marcel.pcapng)
+[arp_john_marcel](./arp_john_marcel.pcap)
 - répétez l'opération précédente (vider les tables, puis `ping`), en lançant `tcpdump` sur `marcel`
 ```
 [matastral@marcel ~]$ sudo ip neigh flush all
@@ -160,7 +160,7 @@ PING 10.3.1.11 (10.3.1.11) 56(84) bytes of data.
 2 packets transmitted, 2 received, 0% packet loss, time 1002ms
 rtt min/avg/max/mdev = 1.864/1.871/1.879/0.007 ms
 ```
-[arp_marcel_john](./arp_marcel_john.pcapng)
+[arp_marcel_john](./arp_marcel_john.pcap)
 - **écrivez, dans l'ordre, les échanges ARP qui ont eu lieu, puis le ping et le pong, je veux TOUTES les trames** utiles pour l'échange
 
 | ordre | type trame  | IP source | MAC source                  | IP destination | MAC destination             |
@@ -229,7 +229,7 @@ rtt min/avg/max/mdev = 21.018/22.859/26.474/2.556 ms
 
 - effectuez un `ping 8.8.8.8` depuis `john`
 - capturez le ping depuis `john` avec `tcpdump`
-[ping_internet](./ping_internet.pcapng)
+[ping_internet](./ping_internet.pcap)
 - analysez un ping aller et le retour qui correspond et mettez dans un tableau :
 
 | ordre | type trame | IP source           | MAC source               | IP destination | MAC destination    |     |
@@ -355,5 +355,5 @@ rtt min/avg/max/mdev = 14.118/15.934/17.750/1.816 ms
 - demander une nouvelle IP afin de générer un échange DHCP
 ```[matastral@bob ~]$ sudo systemctl restart NetworkManager```
 - exportez le fichier `.pcapng`
-[ip dhcp](./ip_dhcp.pcapng)
+[ip dhcp](./ip_dhcp.pcap)
 🦈 **Capture réseau `tp3_dhcp.pcapng`**
